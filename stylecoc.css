@@ -8,6 +8,10 @@ div{
     height: auto;
     padding: 20px;
 }
+body{
+    color: white;
+    background-color: black;
+}
 pre{
     font-size: 17px;
     color: #e9f3f1;

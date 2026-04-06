@@ -1,5 +1,6 @@
 a.m{
-    background-color: rgb(239, 245, 244);
+    background-color: black;
+    color: white;
     height: 45PX;
     width: 50%;
     display: flex;
@@ -10,9 +11,14 @@ a.m{
     justify-content: center;
     padding-top: 8px;
 }
+body{
+    color: white;
+    background-color: black;
+}
 
 a.n{
     background-color: #1A4A2A;
+    color: white;
     height: 45px;
     width: 250px;
     display: flex;
@@ -24,6 +30,7 @@ a.n{
     justify-content: center;
     padding-top: 8px;
 }
+
 
 div.null{
     height: 40px;

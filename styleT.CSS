@@ -8,6 +8,10 @@ h1{
     background-color: #1a4a2a;
     margin-bottom: 4px;
 }
+body{
+    color: white;
+    background-color: black;
+}
 div{
     width: 500px;
     font-size: 20px;
