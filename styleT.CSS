@@ -20,7 +20,6 @@ div{
     border-style: double;
     border-radius: 15px;
     height: auto;
-    padding: 20px;
     text-align: center;
 
 }
@@ -32,7 +31,8 @@ a.button-linkx {
     border-radius: 15px;
     text-decoration: none;
     background-color: #1a4a2a;
-    margin-top: -17PX;
+    margin-top: 5PX;
+    margin-bottom: 5px;
     font-size: 16px;
     font-size: 20px;
     cursor: pointer;
@@ -45,4 +45,7 @@ a.button-linkx:hover{
     width: 100px;
     height: fit-content;
     border-style: none;
+}
+.social-links{
+    padding-bottom: 20px;
 }
