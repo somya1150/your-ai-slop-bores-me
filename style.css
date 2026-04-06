@@ -1,0 +1,166 @@
+body {
+    color: white;            
+    background-color: #121212; 
+    text-align: center; 
+}
+
+img {
+    background-color:none;
+    max-width: 200px;         
+    margin-bottom: 20px;    
+}
+div{
+    height: 52vh;      
+    border-style: double;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom:2px;
+    margin-top: 2px;
+}
+
+div.box{
+    height: auto;
+    width: fit-content;
+    border-style:none;
+    margin-top: 17px;
+    background-color: #1A4A2A;
+
+}
+
+.zero{
+    height: 50px;
+    display: flex;
+    text-align: center;
+    border-style:none;
+    margin-bottom: 7px;
+    margin-top: 10PX;
+}
+.one{
+    margin-bottom: 2px;
+    margin-top: 2px
+}
+
+.one p{
+    margin-bottom: auto;
+    font-size: 18px;
+}
+
+.two {
+    height: auto;
+}
+
+.three {
+    height: auto;
+    width: 100%;
+    border-style: none;
+}
+
+.four {
+    padding: 10px;
+    height: 80%;
+    cursor: pointer;
+}
+.four:hover{
+    background-color: #163d22; 
+}
+
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+button {
+    border-radius: 15px;
+    background: #1A4A2A;
+    color: #f1f4f3;          
+    padding: 12px 16px;
+    border-radius: 4px;;   
+    font-size: 17px;          
+}
+
+.b{
+    width: 50%;
+    height: 40px;
+    font-size: 27px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #f4efef;
+    text-decoration: none;
+    border-style: double;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    background-color: #222;
+    border: 1px solid #444;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    outline: none;
+}
+
+.a{
+    text-align: center;
+    width: 250PX;
+    height: 40px;
+    font-size: 27px;
+    text-align: center;
+    color: #f4efef;
+    text-decoration: none;
+    background-color: #1A4A2A;
+    border-style: double;
+    border-radius: 10Px;
+}
+a.a{
+    text-align: center;
+    margin: auto;
+    padding-top: 10PX;
+}
+a.b{
+    text-align: center;
+    margin: auto;
+    padding-top: 10PX;
+}
+
+input[type="radio"]{  
+    display: none;
+}
+.larp-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px double #1A4A2A;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transform: 0.3s;
+}
+input[type="radio"]:checked + .larp-btn{
+    background-color: #1A4A2A;
+}
+.larp-btn:hover{
+    background-color: #333333; 
+    
+}
+.b:hover{
+    background-color: #333333; 
+}
+
+.ques-mark:hover{
+    background-color: #163d22; 
+}
+.ques-mark{
+    background-color: #1A4A2A;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+footer{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
